@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.hrm.Genericutility.ListenerImpleClass"/>
+  </listeners>
+  <test thread-count="1" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="testNGTestsript_package.CreateEmployeepopupTestNGTest">
+        <methods>
+          <include name="popup"/>
+          <include name="config_BM"/>
+          <include name="config_AM"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+        </methods>
+      </class> <!-- testNGTestsript_package.CreateEmployeepopupTestNGTest -->
+      <class name="testNGTestsript_package.CreateHrofficerinHRheadTestNGTest">
+        <methods>
+          <include name="createhrofficer"/>
+          <include name="config_BM"/>
+          <include name="config_AM"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+        </methods>
+      </class> <!-- testNGTestsript_package.CreateHrofficerinHRheadTestNGTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

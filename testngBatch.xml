@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	
+  <test thread-count="1" parallel="tests" name="Test" preserve-order="true">
+    <classes>
+       <class name="testNGPractice_package.HrheadSampleTestngTest">
+       
+       </class>
+      <class name="testNGPractice_package.HrOfficerTestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

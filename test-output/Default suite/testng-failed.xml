@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testNGTestsript_package.CreateEmployeepopupTestNGTest">
+        <methods>
+          <include name="popup"/>
+          <include name="config_BM"/>
+          <include name="config_AM"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+        </methods>
+      </class> <!-- testNGTestsript_package.CreateEmployeepopupTestNGTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
